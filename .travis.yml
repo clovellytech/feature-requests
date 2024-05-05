@@ -4,7 +4,7 @@ before_install:
   - "export PATH=${PATH}:./vendor/bundle"
 
 scala_212: &scala_212 2.12.12
-scala_213: &scala_213 2.13.3
+scala_213: &scala_213 2.13.14
 
 language: scala
 services:
