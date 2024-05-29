@@ -2,7 +2,7 @@ package h4sm.petstore
 package client
 
 import cats.effect.Sync
-import cats.implicits._
+import cats.syntax.all._
 import org.http4s.Headers
 import org.http4s.client.dsl.Http4sClientDsl
 import org.http4s.dsl.Http4sDsl

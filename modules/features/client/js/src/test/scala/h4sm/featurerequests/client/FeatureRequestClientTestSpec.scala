@@ -1,7 +1,6 @@
 package h4sm.featurerequests.client
 
 import cats.data.StateT
-import cats.implicits._
 import h4sm.auth.client.implicits._
 import h4sm.auth.client.{Client => AuthClient}
 import h4sm.auth.comm.arbitraries._

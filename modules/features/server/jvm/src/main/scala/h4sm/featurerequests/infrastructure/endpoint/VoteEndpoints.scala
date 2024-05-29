@@ -3,7 +3,7 @@ package infrastructure
 package endpoint
 
 import cats.effect.{Bracket, Sync}
-import cats.implicits._
+import cats.syntax.all._
 import org.http4s.dsl.Http4sDsl
 import org.http4s.circe.CirceEntityCodec._
 import h4sm.auth.{UserAuthService, UserId}

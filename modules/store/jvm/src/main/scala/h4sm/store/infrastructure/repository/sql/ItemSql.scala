@@ -2,7 +2,7 @@ package h4sm
 package store
 package infrastructure.repository.sql
 
-import cats.implicits._
+import cats.syntax.all._
 import domain._
 import doobie._
 import doobie.implicits._

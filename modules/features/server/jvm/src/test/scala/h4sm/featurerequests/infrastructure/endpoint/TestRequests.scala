@@ -7,7 +7,7 @@ import auth.domain.UserService
 import auth.infrastructure.endpoint.Authenticators
 import auth.infrastructure.repository.persistent._
 import cats.effect.Sync
-import cats.implicits._
+import cats.syntax.all._
 import doobie.util.transactor.Transactor
 import featurerequests.comm.codecs._
 import featurerequests.comm.domain.features._

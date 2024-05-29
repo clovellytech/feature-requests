@@ -2,7 +2,7 @@ package h4sm.featurerequests.client
 
 import cats.data.StateT
 import cats.Monad
-import cats.implicits._
+import cats.syntax.all._
 import h4sm.auth.comm.SiteResult
 import h4sm.auth.comm.codecs._
 import h4sm.common.API

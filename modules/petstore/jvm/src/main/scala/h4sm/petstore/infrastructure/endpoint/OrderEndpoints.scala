@@ -2,7 +2,7 @@ package h4sm.petstore
 package infrastructure.endpoint
 
 import cats.effect.Sync
-import cats.implicits._
+import cats.syntax.all._
 import domain._
 import org.http4s.dsl.Http4sDsl
 import org.http4s.circe.CirceEntityCodec._

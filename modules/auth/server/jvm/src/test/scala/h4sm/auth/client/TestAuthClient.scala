@@ -2,7 +2,7 @@ package h4sm.auth
 package client
 
 import cats.effect.{IO, Sync}
-import cats.implicits._
+import cats.syntax.all._
 import h4sm.auth.comm.UserRequest
 import org.http4s.Headers
 import org.scalacheck.Arbitrary

@@ -4,7 +4,7 @@ package infrastructure.endpoint
 import scala.concurrent.duration._
 import cats.data.OptionT
 import cats.effect._
-import cats.implicits._
+import cats.syntax.all._
 import comm.{SiteResult, UserDetail, UserRequest}
 import comm.codecs._
 import org.http4s._

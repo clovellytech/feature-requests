@@ -4,7 +4,7 @@ package infrastructure.endpoint
 import java.io.File
 import java.util.UUID
 
-import cats.implicits._
+import cats.syntax.all._
 import config._
 import doobie.util.transactor.Transactor
 import fs2.Stream

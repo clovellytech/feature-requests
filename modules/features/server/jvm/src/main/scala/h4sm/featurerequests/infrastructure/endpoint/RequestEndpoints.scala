@@ -2,7 +2,7 @@ package h4sm.featurerequests
 package infrastructure.endpoint
 
 import cats.effect.{Bracket, Sync}
-import cats.implicits._
+import cats.syntax.all._
 import org.http4s._
 import org.http4s.dsl.Http4sDsl
 import tsec.authentication._

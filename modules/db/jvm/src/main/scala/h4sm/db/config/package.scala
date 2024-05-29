@@ -1,7 +1,7 @@
 package h4sm.db
 
 import cats.{Applicative, ApplicativeError, Functor}
-import cats.implicits._
+import cats.syntax.all._
 import cats.mtl.{ApplicativeAsk, DefaultApplicativeAsk}
 import io.circe.Decoder
 import io.circe.config.parser

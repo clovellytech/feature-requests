@@ -1,7 +1,7 @@
 package h4sm.featurerequests
 
 import cats.effect._
-import cats.implicits._
+import cats.syntax.all._
 import doobie.hikari.HikariTransactor
 import doobie.util.transactor.Transactor
 import h4sm.auth.infrastructure.endpoint.{AuthEndpoints, Authenticators}

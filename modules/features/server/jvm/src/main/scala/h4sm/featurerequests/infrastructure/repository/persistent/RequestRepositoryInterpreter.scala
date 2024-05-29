@@ -5,7 +5,7 @@ import java.time.Instant
 
 import cats.effect.Bracket
 import cats.data.OptionT
-import cats.implicits._
+import cats.syntax.all._
 import doobie._
 import doobie.implicits._
 import doobie.postgres.syntax.monaderror._

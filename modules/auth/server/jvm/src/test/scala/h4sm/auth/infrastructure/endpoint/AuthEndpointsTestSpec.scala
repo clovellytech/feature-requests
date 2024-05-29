@@ -4,7 +4,7 @@ package infrastructure
 package endpoint
 
 import cats.effect.IO
-import cats.implicits._
+import cats.syntax.all._
 import h4sm.auth.comm.{SiteResult, UserDetail, UserRequest}
 import h4sm.auth.comm.codecs._
 import org.http4s.circe.CirceEntityCodec._

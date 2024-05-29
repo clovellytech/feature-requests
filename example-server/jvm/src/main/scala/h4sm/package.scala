@@ -1,6 +1,6 @@
 import cats.mtl.ApplicativeAsk
 import cats.effect.Sync
-import cats.implicits._
+import cats.syntax.all._
 import h4sm.db.config._
 import h4sm.files.config.FileConfig
 import io.circe.generic.auto._

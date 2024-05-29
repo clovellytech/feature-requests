@@ -1,6 +1,6 @@
 package h4sm.featurerequests.comm
 
-import cats.implicits._
+import cats.syntax.all._
 import h4sm.featurerequests.comm.domain.features.FeatureRequest
 import h4sm.testutil.arbitraries._
 import org.scalacheck.Arbitrary

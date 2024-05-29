@@ -1,7 +1,7 @@
 package h4sm.auth
 package client
 
-import cats.implicits._
+import cats.syntax.all._
 import cats.MonadError
 import cats.data.StateT
 import h4sm.auth.comm.codecs._

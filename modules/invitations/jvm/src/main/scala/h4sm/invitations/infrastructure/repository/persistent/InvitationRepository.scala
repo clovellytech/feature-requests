@@ -6,7 +6,7 @@ package repository.persistent
 import auth.UserId
 import cats.data.OptionT
 import cats.effect.Bracket
-import cats.implicits._
+import cats.syntax.all._
 import domain._
 import doobie._
 import doobie.implicits._

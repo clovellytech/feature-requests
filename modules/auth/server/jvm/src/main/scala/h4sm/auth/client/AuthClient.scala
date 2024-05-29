@@ -2,7 +2,7 @@ package h4sm.auth
 package client
 
 import cats.data.OptionT
-import cats.implicits._
+import cats.syntax.all._
 import cats.effect.Sync
 import h4sm.auth.comm.{UserDetailId, UserRequest}
 import h4sm.auth.comm.codecs._

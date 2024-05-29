@@ -5,7 +5,7 @@ package infrastructure.repository.persistent
 import domain.votes._
 import cats.data.OptionT
 import cats.effect.Bracket
-import cats.implicits._
+import cats.syntax.all._
 import doobie._
 import doobie.implicits._
 import doobie.postgres.syntax.monaderror._

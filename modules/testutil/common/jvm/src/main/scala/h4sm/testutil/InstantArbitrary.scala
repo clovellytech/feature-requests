@@ -1,6 +1,6 @@
 package h4sm.testutil
 
-import cats.implicits._
+import cats.syntax.all._
 import java.time.Instant
 import org.scalacheck.{Arbitrary, Gen}
 import org.scalacheck.cats.implicits._
