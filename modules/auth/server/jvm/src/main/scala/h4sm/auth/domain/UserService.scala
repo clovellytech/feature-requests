@@ -2,7 +2,7 @@ package h4sm.auth
 package domain
 
 import cats.MonadError
-import cats.implicits._
+import cats.syntax.all._
 import h4sm.auth.db.domain._
 import h4sm.auth.domain.users._
 import tsec.common._

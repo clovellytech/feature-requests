@@ -4,7 +4,7 @@ package client
 
 import java.io.File
 
-import cats.implicits._
+import cats.syntax.all._
 import cats.effect._
 import files.domain._
 import files.infrastructure.endpoint._

@@ -3,7 +3,7 @@ package permissions
 package client
 
 import cats.data.Kleisli
-import cats.implicits._
+import cats.syntax.all._
 import cats.effect.Sync
 import domain._
 import infrastructure.endpoint._

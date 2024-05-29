@@ -7,7 +7,7 @@ import auth.domain._
 import auth.domain.tokens.AsBaseToken
 import auth.domain.tokens.AsBaseToken.ops._
 import cats.effect.Sync
-import cats.implicits._
+import cats.syntax.all._
 import domain._
 import org.http4s._
 import org.http4s.dsl.Http4sDsl

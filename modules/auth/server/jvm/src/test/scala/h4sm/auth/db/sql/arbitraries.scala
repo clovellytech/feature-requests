@@ -1,7 +1,7 @@
 package h4sm.auth
 package db.sql
 
-import cats.implicits._
+import cats.syntax.all._
 import h4sm.auth.db.domain.User
 import h4sm.auth.domain.tokens.BaseToken
 import org.scalacheck.{Arbitrary, Gen}

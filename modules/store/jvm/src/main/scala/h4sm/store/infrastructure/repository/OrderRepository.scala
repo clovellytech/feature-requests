@@ -2,7 +2,7 @@ package h4sm.store
 package infrastructure.repository
 
 import cats.effect.Bracket
-import cats.implicits._
+import cats.syntax.all._
 import cats.data.OptionT
 import doobie._
 import doobie.implicits._

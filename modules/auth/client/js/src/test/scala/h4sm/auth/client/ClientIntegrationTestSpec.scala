@@ -2,7 +2,7 @@ package h4sm.auth.client
 
 import arbitraries._
 import cats.data.StateT
-import cats.implicits._
+import cats.syntax.all._
 import h4sm.auth.client.implicits._
 import h4sm.auth.comm.UserRequest
 import org.scalatest.flatspec.AsyncFlatSpec

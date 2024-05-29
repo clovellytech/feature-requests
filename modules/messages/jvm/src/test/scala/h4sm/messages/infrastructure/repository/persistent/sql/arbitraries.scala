@@ -1,6 +1,6 @@
 package h4sm.messages.infrastructure.repository.persistent.sql
 
-import cats.implicits._
+import cats.syntax.all._
 import org.scalacheck._
 import org.scalacheck.cats.implicits._
 import h4sm.messages.domain._

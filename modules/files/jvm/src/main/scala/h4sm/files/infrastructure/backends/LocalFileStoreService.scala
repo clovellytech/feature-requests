@@ -4,7 +4,7 @@ package infrastructure.backends
 import java.io.File
 
 import cats.effect.{Blocker, ContextShift, Sync}
-import cats.implicits._
+import cats.syntax.all._
 import h4sm.files.config.ConfigAsk
 import h4sm.files.domain._
 import fs2.Stream

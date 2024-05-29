@@ -3,7 +3,7 @@ package testutil.infrastructure.endpoints
 
 import org.http4s._
 import cats.effect.Sync
-import cats.implicits._
+import cats.syntax.all._
 
 sealed abstract class ClientError extends Throwable with Product with Serializable
 final case class UriError(message: String) extends ClientError

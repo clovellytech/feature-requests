@@ -2,7 +2,7 @@ package h4sm.db.config
 
 import scala.util.Try
 import cats.effect.Sync
-import cats.implicits._
+import cats.syntax.all._
 import javax.sql.DataSource
 import org.flywaydb.core.Flyway
 import org.flywaydb.core.api.FlywayException

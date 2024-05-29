@@ -2,7 +2,7 @@ package h4sm.petstore
 package infrastructure.endpoint
 
 import cats.effect.Sync
-import cats.implicits._
+import cats.syntax.all._
 import domain._
 import h4sm.auth._
 import h4sm.auth.domain.tokens._

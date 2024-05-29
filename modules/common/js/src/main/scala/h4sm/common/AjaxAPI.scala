@@ -1,6 +1,6 @@
 package h4sm.common
 
-import cats.implicits._
+import cats.syntax.all._
 
 import io.circe.{Decoder, Encoder}
 import io.circe.syntax._

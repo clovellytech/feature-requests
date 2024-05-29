@@ -2,7 +2,7 @@ package h4sm.messages.infrastructure.repository.persistent
 
 import cats.data.OptionT
 import cats.effect.Bracket
-import cats.implicits._
+import cats.syntax.all._
 import doobie.Transactor
 import doobie.implicits._
 import doobie.postgres.implicits._

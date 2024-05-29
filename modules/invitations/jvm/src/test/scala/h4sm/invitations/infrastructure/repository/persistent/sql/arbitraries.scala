@@ -1,7 +1,7 @@
 package h4sm
 package invitations.infrastructure.repository.persistent.sql
 
-import cats.implicits._
+import cats.syntax.all._
 import testutil.arbitraries._
 import h4sm.invitations.domain.Invitation
 import org.scalacheck._

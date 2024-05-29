@@ -4,7 +4,7 @@ package testutil
 import java.sql.DriverManager
 
 import cats.effect.{Async, ContextShift, Sync}
-import cats.implicits._
+import cats.syntax.all._
 import doobie.util.transactor.Transactor
 import h4sm.db.config.DatabaseConfig
 import io.circe.config.parser

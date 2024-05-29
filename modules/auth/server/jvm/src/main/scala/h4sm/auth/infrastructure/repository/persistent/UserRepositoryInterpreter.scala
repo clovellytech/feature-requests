@@ -2,7 +2,7 @@ package h4sm.auth
 package infrastructure.repository.persistent
 
 import cats.data.OptionT
-import cats.implicits._
+import cats.syntax.all._
 import cats.effect.Bracket
 import doobie._
 import doobie.implicits._

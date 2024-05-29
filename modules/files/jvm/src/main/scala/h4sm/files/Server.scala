@@ -1,7 +1,7 @@
 package h4sm.files
 
 import cats.effect._
-import cats.implicits._
+import cats.syntax.all._
 import h4sm.auth.domain.tokens._
 import h4sm.auth.domain._
 import h4sm.auth.infrastructure.endpoint.{AuthEndpoints, Authenticators}

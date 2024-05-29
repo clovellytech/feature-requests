@@ -3,7 +3,7 @@ package invitations
 package client
 
 import cats.effect.Sync
-import cats.implicits._
+import cats.syntax.all._
 import testutil.infrastructure.endpoints.SessionClientDsl
 import infrastructure.endpoint._
 import org.http4s._

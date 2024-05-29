@@ -3,7 +3,7 @@ package infrastructure.repository.persistent
 
 import cats.data.OptionT
 import cats.effect.Bracket
-import cats.implicits._
+import cats.syntax.all._
 import db.sql._
 import domain._
 import doobie._

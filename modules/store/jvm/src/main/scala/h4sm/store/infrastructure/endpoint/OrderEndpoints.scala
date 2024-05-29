@@ -3,7 +3,7 @@ package infrastructure.endpoint
 
 import cats.data.EitherT
 import cats.effect.Sync
-import cats.implicits._
+import cats.syntax.all._
 import domain._
 import h4sm.auth._
 import h4sm.auth.domain.tokens._

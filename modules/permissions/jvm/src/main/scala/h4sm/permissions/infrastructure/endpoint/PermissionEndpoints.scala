@@ -3,7 +3,7 @@ package permissions
 package infrastructure.endpoint
 
 import cats.effect.Sync
-import cats.implicits._
+import cats.syntax.all._
 import h4sm.auth.comm.SiteResult
 import h4sm.auth.comm.codecs._
 import h4sm.auth.{UserAuthService, UserId, UserSecuredRequestHandler}

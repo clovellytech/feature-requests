@@ -2,7 +2,7 @@ package h4sm.files
 package infrastructure.backends
 
 import cats.effect.Bracket
-import cats.implicits._
+import cats.syntax.all._
 import domain._
 import db.sql._
 import doobie._

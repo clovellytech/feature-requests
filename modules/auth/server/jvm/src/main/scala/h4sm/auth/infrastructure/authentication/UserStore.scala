@@ -4,7 +4,7 @@ package authentication
 
 import cats.Monad
 import cats.data.OptionT
-import cats.implicits._
+import cats.syntax.all._
 import tsec.common.SecureRandomId
 import h4sm.auth.domain.users.UserRepositoryAlgebra
 import tsec.authentication._

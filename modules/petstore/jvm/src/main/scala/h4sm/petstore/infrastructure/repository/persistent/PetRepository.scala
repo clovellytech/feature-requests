@@ -2,7 +2,7 @@ package h4sm.petstore
 package infrastructure.repository.persistent
 
 import cats.effect.Bracket
-import cats.implicits._
+import cats.syntax.all._
 import cats.data.OptionT
 import db.sql._
 import domain._
