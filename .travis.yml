@@ -3,7 +3,7 @@ before_install:
   - "git fetch --tags"
   - "export PATH=${PATH}:./vendor/bundle"
 
-scala_212: &scala_212 2.12.12
+scala_212: &scala_212 2.12.19
 scala_213: &scala_213 2.13.3
 
 language: scala
